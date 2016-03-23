@@ -1,0 +1,42 @@
+
+/*
+    Note: It is best to use a less version of this file ( see http://css2less.cc
+    For the media queries use @screen-sm-min instead of 768px.
+    For .onl_spanOr use @body-bg instead of white.
+*/
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web&subset=latin,latin-ext);
+@media (min-width: 768px) {
+    .onl_row-s-offset-3 div:first-child[class*="col-"] {
+    }
+}
+
+	
+.onl_login .onl_socialButtons a {
+	color: white; 
+	opacity:0.9;
+}
+
+.onl_login .onl_socialButtons .onl_btn-github {background: #666666;border-color:#333333}
+.onl_login .onl_socialButtons .onl_btn-linkedin {background: #0976b4;border-color:#004269}
+
+.back-to-top {
+    position: fixed;
+    bottom: 2em;
+    right: 0px;
+    text-decoration: none;
+    color: #000000;
+    background-color: rgba(235, 235, 235, 0.80);
+    background: #27AE61 url("up-arrow.png") no-repeat center 43%;
+    font-size: 12px;
+    padding: 1em;
+    display: none;
+}
+
+.back-to-top:hover {    
+    background-color: rgba(135, 135, 135, 0.50);
+}
+
+
+
+	
